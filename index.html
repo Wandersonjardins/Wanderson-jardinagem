@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="corte e grama,Limpeza de quintais,poda de plantas e roçagem de
+terrenos em Pontes e Lacerda -MT.">
+ <title>Wanderson Jardinagem | Pontes e Lacerda -MT</title>
+ <style>
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #20382b;
+    background-color: #f7faf7;
+    line-height: 1.6;
+
+  }
+  header{
+    background-color: #123e2b;
+    color: white;
+    padding: 18px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  header h2{
+    font-size: 22px;
+  }
+
+  header h2 span {
+    color: #a8e063;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+  }
+  .hero{
+    background: linear-gradient(135deg,#174d32,#317448);
+color: white;
+    text-align: center;
+    padding:85px 20px;
+
+  }
+  .hero.tag{
+    color:#c4ed91;
+    font-weight: bold;
+    letter-spacing:2px;
+    font-size: 13px;
+  }
+  .hero h1{
+    font-size: 38px;
+    margin: 15px 0;
+  }
+  .hero p {
+    max-width: 650px;
+    margin: 0 auto;
+  }
+  .botao{
+    display: inline-block;
+    background-color: #a8e063;
+    color: #173d28;
+    padding: 13px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  .botao:hover{
+    background-color: #c4ed91;
+  }
+  .servicos{
+    padding: 60px 7%;
+    text-align: center;
+  }
+  .servicos h2,
+  .sobre h2,
+  .contato h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px #00000010;
+    }
+
+    .card h3 {
+      color: #24643c;
+      margin-bottom: 10px;
+    }
+
+    .sobre {
+      background: #eaf3e9;
+      padding: 55px 7%;
+      text-align: center;
+    }
+
+    .sobre p {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .contato {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    footer {
+      background: #123e2b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        justify-content: center;
+        text-align: center;
+      }
+
+      nav a {
+        margin: 0 7px;
+      }
+
+      .hero h1 {
+        font-size: 30px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h2>🌿 Wanderson <span>Jardinagem</span></h2>
+
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <p class="tag">JARDINAGEM E LIMPEZA</p>
+
+    <h1>Seu quintal limpo e bem cuidado!</h1>
+
+    <p>
+Corte de grama, limpeza de quintais,
+      poda de plantas e roçagem de terrenos
+      em Pontes e Lacerda - MT.
+    </p>
+
+    <a class="botao"
+       href="#contato">
+      Solicitar orçamento
+    </a>
+  </section>
+
+  <section class="servicos" id="servicos">
+    <h2>Nossos serviços</h2>
+    <p>Cuidado e capricho para seu espaço.</p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>🌱 Corte de grama</h3>
+        <p>Deixe seu gramado limpo e organizado.</p>
+      </div>
+
+      <div class="card">
+        <h3>🧹 Limpeza de quintais</h3>
+        <p>Mais organização e cuidado para seu quintal.</p>
+      </div>
+
+      <div class="card">
+        <h3>✂️ Poda de plantas</h3>
+        <p>Cuidado com plantas e manutenção do jardim.</p>
+      </div>
+
+      <div class="card">
+        <h3>🌿 Roçagem de terrenos</h3>
+        <p>Limpeza de terrenos com mato alto.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre" id="sobre">
+    <h2>Por que nos contratar?</h2>
+
+    <p>
+      Trabalhamos com dedicação, cuidado e capricho
+      para ajudar você a manter seu quintal e terreno
+      limpos e bem cuidados.
+    </p>
+  </section>
+
+  <section class="contato" id="contato">
+    <h2>Vamos cuidar do seu quintal?</h2>
+
+    <p>
+      Entre em contato e solicite seu orçamento!
+    </p>
+
+    <a class="botao"
+       href="https://wa.me/556596127806"
+       target="_blank"
+       rel="noopener noreferrer">
+      Falar pelo WhatsApp
+    </a>
+  </section>
+
+  <footer>
+    <p>Wanderson Jardinagem | Pontes e Lacerda - MT</p>
+    <p>© 2026 - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
+
+ </style>
